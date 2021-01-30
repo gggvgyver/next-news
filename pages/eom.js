@@ -1,9 +1,11 @@
 import styles from '../styles/EOM.module.css'
+import {Toolbar} from '../components/toolbar'
 
 const EOM = ({employee}) => {
     //console.log(employee)
     return (
         <div className='page-container'>
+            <Toolbar />
             <div className={styles.main}>
                 <h1>이달의 사원</h1>
                 <div className={styles.employeeOfTheMonth}>
